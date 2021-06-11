@@ -24,5 +24,5 @@ This is my personal portfolio that I created by using the HTML and CSS and I als
 
 
 
- ### A Screenshots of my deployed personal portfolio:
+ ### A Screenshot of my deployed personal portfolio:
 * ![ScreenShots]( https://github.com/Qabas-al-ani/personal-portfolio/blob/main/screen-shot/Qabas-Al-Ani.png  )   
