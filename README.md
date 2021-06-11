@@ -18,3 +18,5 @@ This is my personal portfolio that I created by using the HTML and CSS and I als
 
 *	[HTML Validator:]( https://validator.w3.org/ ) I used it to be sure that my code has no errors.
 *	[CSS validator:](  https://jigsaw.w3.org/css-validator/ ) also I used it to be sure that my code has no errors.
+
+![ScreenShots]( https://github.com/Qabas-al-ani/personal-portfolio/blob/main/screen-shot/Qabas-Al-Ani.png "my Screenshots of my deployed personal portfolio" )   
