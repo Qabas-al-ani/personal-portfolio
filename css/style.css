@@ -1,0 +1,250 @@
+/* Declaration of a Variables */
+:root {
+  --dark: rgb(58, 64, 70);
+  --light: rgb(64, 148, 167);
+}
+
+/* General styling */
+* {
+  font-family: "Mulish", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+/* Header styling */
+
+header {
+  display: flex;
+  background-color: var(--dark);
+  align-items: baseline;
+  justify-content: space-between;
+  color: var(--light);
+}
+li {
+  list-style: none;
+  margin-right: 25px;
+  border-bottom: 4px solid var(--light);
+  padding: 2px 4px;
+}
+
+.links {
+  font-size: xx-large;
+  font-weight: 700;
+  color: var(--light);
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+#name {
+  margin-left: 0px;
+  color: var(--dark);
+  background-color: var(--light);
+  width: 20%;
+  text-align: right;
+  padding: 5px;
+}
+
+/* Main content styling */
+/* My jambotron style */
+.main-div {
+  background-image: url(/images/code-pic.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 20px;
+}
+
+.photo {
+  width: 20%;
+  border-radius: 50%;
+}
+
+.white-code {
+  color: white;
+}
+
+.yellow-code {
+  color: yellow;
+}
+
+.yellow-code,
+.white-code {
+  background-color: rgb(10, 1, 1);
+  font-size: x-large;
+  font-family: monospace;
+}
+
+/* My bio */
+#about-me {
+  font-size: x-large;
+  padding: 15px;
+  width: 75%;
+}
+
+#section-2 {
+  display: flex;
+  margin: 0px;
+  width: 100%;
+  align-items: baseline;
+}
+
+.abt,
+#contact-me {
+  border-right: 3px solid var(--light);
+  color: var(--light);
+  font-size: xx-large;
+  width: 25%;
+  text-align: right;
+  padding: 0px 10px 80px 0px;
+}
+
+/* My projrct work and styling */
+#work-section {
+  display: flex;
+  width: 100%;
+}
+
+.work {
+  width: 25%;
+  border-right: 3px solid var(--light);
+  color: var(--light);
+  font-size: xx-large;
+  width: 25%;
+  text-align: right;
+  padding: 0px 10px 0px 0px;
+}
+
+.main-card {
+  background-image: url(/images/project-1.jpg);
+  background-size: cover;
+  width: 95%;
+  height: 800px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.card:hover {
+  transform: scale(1.07);
+  cursor: pointer;
+}
+
+.project-cards {
+  width: 75%;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  margin-top: 10px;
+}
+
+.one {
+  background-image: url(/images/project-2.jpg);
+  background-size: cover;
+  width: 45%;
+  height: 200px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.two {
+  background-image: url(/images/project-3.jpg);
+  background-size: cover;
+  width: 45%;
+  height: 200px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.three {
+  background-image: url(/images/project-4.jpg);
+  background-size: cover;
+  width: 45%;
+  height: 200px;
+  align-items: flex-end;
+  display: flex;
+}
+.four {
+  background-image: url(/images/project-5.jpg);
+  background-size: cover;
+  width: 45%;
+  height: 200px;
+  align-items: flex-end;
+  display: flex;
+}
+
+.description {
+  background-color: var(--light);
+  margin-bottom: 20px;
+  padding: 10px;
+}
+/* Contact me info */
+
+footer {
+  width: 100%;
+  display: flex;
+}
+
+.contact-info {
+  width: 75%;
+  padding: 15px;
+}
+
+.abt,
+.work,
+#contact-me {
+  font-size: 50px;
+}
+
+/* For other devices screens */
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+  ul {
+    flex-flow: column wrap;
+    padding-left: 24px;
+  }
+  .main-card {
+    height: 400px;
+  }
+
+  .card {
+    width: 95%;
+  }
+
+  .abt,
+  .work,
+  #contact-me {
+    font-size: 26px;
+  }
+
+  .links {
+    font-size: large;
+  }
+
+  #name {
+    width: 26%;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 823px) {
+  ul {
+    flex-flow: column wrap;
+    padding-left: 24px;
+  }
+
+  .main-card {
+    height: 300px;
+  }
+  #contact-me {
+    font-size: 42px;
+  }
+}
