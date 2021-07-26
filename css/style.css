@@ -159,7 +159,7 @@ ul {
 }
 
 .one {
-  background-image: url(../images/project-2.jpg);
+  background-image: url(../images/project-2.png);
   background-size: cover;
   width: 45%;
   height: 200px;
@@ -168,7 +168,7 @@ ul {
 }
 
 .two {
-  background-image: url(../images/project-3.jpg);
+  background-image: url(../images/project-3.png);
   background-size: cover;
   width: 45%;
   height: 200px;
@@ -177,7 +177,7 @@ ul {
 }
 
 .three {
-  background-image: url(../images/project-4.jpg);
+  background-image: url(../images/project-4.png);
   background-size: cover;
   width: 45%;
   height: 200px;
@@ -185,7 +185,7 @@ ul {
   display: flex;
 }
 .four {
-  background-image: url(../images/project-5.jpg);
+  background-image: url(../images/project-5.png);
   background-size: cover;
   width: 45%;
   height: 200px;
